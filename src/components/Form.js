@@ -23,7 +23,7 @@ const Form=()=>{
             <label for="password">Password</label>
             <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/><br/>
             <p className="red">{header}</p><br/>
-            <input type="button" value="Login" onClick={handleChange}/>
+            <button onClick={handleChange}>Login</button>
             
         </div>
     )
